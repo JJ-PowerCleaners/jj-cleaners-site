@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The JJ Cleaners</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f9ff; color: #222; }
+    header { background: #005bbb; color: white; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
+    section { padding: 2rem; max-width: 900px; margin: auto; }
+    h2 { color: #005bbb; margin-bottom: 1rem; }
+    .services, .contact, .about, .gallery { margin-bottom: 2rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 1rem; }
+    .button { display: inline-block; background: #005bbb; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; margin-top: 1rem; }
+    .gallery img { max-width: 100%; border-radius: 8px; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The JJ Cleaners</h1>
+    <p>Affordable Pressure Washing by Local Teens</p>
+    <a href="#contact" class="button">Get a Free Estimate</a>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="card">
+      <p><strong>We clean:</strong> Driveways, Decks, Patios, and Trash Cans</p>
+      <p><strong>Full Package:</strong> $60–$100 depending on job size</p>
+      <p><strong>Trash Cans Only:</strong> $10 for up to 2 bins (+$5 per extra bin)</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Before & After Gallery</h2>
+    <div class="card">
+      <img src="https://via.placeholder.com/800x400?text=Before+and+After+Placeholder" alt="Before and After Example" />
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <div class="card">
+      <p>We’re a team of hardworking teens offering affordable, honest pressure washing services this summer. We believe in showing up on time, doing the job right, and leaving your space sparkling.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="card">
+      <p><strong>Email:</strong> <a href="mailto:joseak841@gmail.com">joseak841@gmail.com</a></p>
+      <p><strong>Availability:</strong> June – August</p>
+      <p><strong>Location:</strong> [Your Area Here]</p>
+    </div>
+  </section>
+</body>
+</html>
